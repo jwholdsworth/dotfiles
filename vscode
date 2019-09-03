@@ -21,5 +21,6 @@
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "gitlens.historyExplorer.enabled": true,
-    "workbench.colorTheme": "Winter is Coming (Light)"
+    "workbench.colorTheme": "Winter is Coming (Light)",
+    "explorer.openEditors.visible": 0
 }
