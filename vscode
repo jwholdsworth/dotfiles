@@ -1,26 +1,24 @@
 {
-    "window.zoomLevel": 0,
-    "extensions.ignoreRecommendations": false,
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
-        "suppressShowKeyBindingsNotice": true,
-        "suppressUpdateNotice": false,
-        "suppressWelcomeNotice": true
-    },
-    "gitlens.keymap": "chorded",
-    "terraform.format": {
-        "enable": false,
-        "formatOnSave": false
-    },
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
-    "gitlens.historyExplorer.enabled": true,
-    "workbench.colorTheme": "Winter is Coming (Light)",
-    "explorer.openEditors.visible": 0
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false
+  },
+  "gitlens.keymap": "chorded",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "explorer.openEditors.visible": 0,
+  "editor.codeActionsOnSave": [
+    "source.addMissingImports",
+    "source.fixAll",
+    "source.organizeImports"
+  ],
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.tabSizing": "shrink",
+  "bracket-pair-colorizer-2.showBracketsInRuler": true,
+  "editor.tabSize": 2,
+  "window.zoomLevel": 3
 }
